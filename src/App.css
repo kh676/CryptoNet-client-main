@@ -1,0 +1,291 @@
+.navbar { 
+  background: rgba(0, 0, 0, 0.211);
+}
+
+.login-box {
+
+  height: 60%;
+  width: 600px;
+  padding: 30px;
+
+
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-box p:first-child {
+  margin: 0 0 ;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.button1 {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin: 1rem auto;
+  padding: 0.7rem 2rem;
+  border-radius: 30em;
+  border-style: none;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: transparent;
+  box-shadow: 0 0 3px rgba(255, 252, 252, 0.35);
+}
+
+.button1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  transform: translateX(-101%);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.button1:hover {
+  color: #272727;
+  transition: all 0.3s ease;
+}
+
+.button1:hover::before {
+  transform: translateX(0);
+}
+
+@-webkit-keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+
+@-webkit-keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@-webkit-keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@-webkit-keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.login-box p:last-child {
+  color: #aaa;
+  font-size: 18px;
+}
+
+.link:hover { 
+  color:white;
+ 
+}
+th{
+  background-color: #0c0e1485;
+  color: white;
+}
+th,td{
+
+padding: 25px;
+border-bottom: 2px solid black;
+text-align: center;
+font-family: 'Readex Pro Variable';
+font-size: 18px;
+
+
+
+}
+.negative-change {
+  color: #CF3049 ;
+}
+
+.positive-change {
+  color: #04A56D;
+}
+
+
+ .crypto-icon{
+width: 10%;
+height: 10%;
+margin-right: 15px;
+
+ }
+ .crypto-info { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .trade-div { 
+
+  border-radius: 20px;
+ }
+ .header { 
+  background-color: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #40A8E1, #AEA0E4,#F6CDAE);
+}
+.crypto-row:hover {
+  background-color: #0c0e143a;
+}
+
+#root { 
+
+  background-image:url('../public/images/Screenshot\ 2023-06-19\ at\ 11.48.28\ PM.png');
+background-size: cover;
+
+background-attachment: fixed;
+
+}
+
+  
+.btn:hover { 
+  transform: scale(1.05);
+  
+}
+html { 
+  width: auto;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.table-divs div { 
+
+height: 10rem;
+width: 15rem;
+border : 1px solid black;
+
+}
+.market-title{
+  background-color: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #cddee7, #b2b7cb,#cec4c4,#cddee7);
+}
+.goals-div{
+  background-color: #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #8dd2f7, #c1ccf9,#b9e6ff,#acd8ef);
+}
+.transaction-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
